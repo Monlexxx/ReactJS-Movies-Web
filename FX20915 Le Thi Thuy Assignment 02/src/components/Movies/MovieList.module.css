@@ -1,0 +1,45 @@
+.kind {
+  background-color: black;
+}
+.detail {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+h2 {
+  color: white;
+  margin-top: 50px;
+}
+.error {
+  color: red;
+  text-align: center;
+}
+.detail img {
+  margin-right: 10px;
+  max-width: 200px;
+  max-height: 200px;
+  transition: transform 0.2s;
+}
+.detail img:hover {
+  transform: scale(1.2);
+}
+/* width */
+::-webkit-scrollbar {
+  height: 5px;
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(16, 15, 13, 255);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2c2b2b;
+}

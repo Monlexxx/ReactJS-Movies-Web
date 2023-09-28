@@ -1,0 +1,47 @@
+.form {
+  background-color: white;
+  margin-top: 100px;
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.searchInput {
+  display: flex;
+  border-bottom: #00bbec solid 1px;
+}
+
+.searchInput svg {
+  fill: #333;
+}
+.searchInput input {
+  border: none;
+  padding: 20px;
+}
+.searchInput input:focus {
+  outline: none;
+}
+.button {
+  text-align: right;
+  margin: 20px 0;
+}
+.button button {
+  border: transparent;
+  padding: 10px 20px;
+  border-radius: 2px;
+  margin: 0 20px 0 10px;
+}
+.button-search {
+  background-color: #00bbec;
+}
+.button-reset {
+  background-color: transparent;
+}
+.error {
+  position: absolute;
+  color: red;
+  top: 55%;
+  left: 50%;
+  transform: translate(0, -50%);
+}
